@@ -1,0 +1,28 @@
+body {
+    margin: auto;
+    text-align: center;
+}
+
+.imagens {
+    margin: auto;  
+}
+
+img {
+    max-width: 40%;
+    max-height: 60%;
+}
+
+.botao:hover{
+    background-color: red;
+    color: white;
+    border-width: 0px;
+    
+}
+
+.botao {
+    background-color: black;
+    color: dodgerblue;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+}
