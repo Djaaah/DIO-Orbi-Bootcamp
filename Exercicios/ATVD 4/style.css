@@ -1,0 +1,33 @@
+body {
+    margin: auto;
+    text-align: center;
+}
+
+div{
+    display: inline-block;
+}
+
+.labels {
+    text-align: left;
+}
+
+.receber{
+    margin-left: 20px;
+}
+
+
+.confirmar:hover{
+    background-color: green;
+    color: white;
+    border-width: 0px;
+    cursor: pointer;
+}
+
+.confirmar{
+    background-color: dodgerblue;
+    width: 150px;
+    height: 50px;
+    border-width: 0px;
+    border-radius: 10px 10px 10px 10px;
+}
+

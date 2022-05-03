@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conta Bancaria</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+  <h1 class="titulo">Banco Jailtér</h1><br><br>
+  
+  
+  <div class="labels">
+    <p>Número da Conta: </p>
+    <p>Tipo da Conta: </p>
+    <p>Nome do Proprietário</p>
+    <p>Email: </p>
+  </div>
+
+  <div class="receber">
+    <p>
+      <input type="number" id="numeroConta" placeholder="Número da Conta" style="text-align: center; border-radius: 10px 10px 10px 10px;">
+    </p>
+    <p>
+      <select style="width: 200px; text-align: center; border-radius: 10px 10px 10px 10px;" id="tipoConta">
+        <option value="Conta Corrente">Conta Corrente</option>
+        <option value="Conta Universitária">Conta Universitária</option>
+        <option value="Conta Poupança">Conta Poupança</option>
+        <option value="Conta Salário">Conta Salário</option>
+      </select>
+    </p>
+
+    <p>
+      <input type="text" id="nomeCompleto" placeholder="Nome Completo" style="text-align: center; border-radius: 10px 10px 10px 10px;">
+    </p>
+
+    <p>
+      <input type="email" id="email" placeholder="Email" style="text-align: center; border-radius: 10px 10px 10px 10px;" required>
+    </p>
+  </div>
+
+  <br><button type="submit" id="confirmarDados" class="confirmar">Confirmar Dados</button>
+
+  <script type="text/javascript" src="funcs.js"></script>
+</body>
+
+</html>
