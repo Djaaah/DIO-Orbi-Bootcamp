@@ -1,0 +1,39 @@
+body {
+    margin: auto;
+    text-align: center;
+}
+
+.quadrado {
+    text-align: center;
+    width: 50px;
+    background-color: white;
+    display: inline-block;
+    padding: 40px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer;
+    color: white;
+    border: 3px solid black;
+    border-radius: 50px;
+}
+
+.jogador, .vencedor, .jogadas, .vitoriasX, .vitoriasO, .empates {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.reiniciar {
+    margin-top: 15px;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.reiniciar:hover {
+    background-color: black;
+    color: white;
+    -webkit-box-shadow: inset 0px 0px 20px 0px dodgerblue; 
+    box-shadow: inset 0px 0px 20px 0px dodgerblue;
+}
